@@ -1,0 +1,56 @@
+.slider-container{
+    width:400px;
+    margin: auto;
+}
+
+.center-container{
+    width:400px;
+    margin: auto;
+    text-align:center;
+    font-size:8pt;
+}
+
+.parameter{
+    width:35%;
+    display:inline-block;
+    box-sizing:border-box;
+    text-align:left;
+}
+
+.slider-div{
+    text-align:left;
+    /* margin-top:3px; */
+    width:55%;
+    display:inline-block;
+    box-sizing:border-box;
+}
+
+.slider-text{
+    width:5%;
+    display:inline-block;
+    box-sizing:border-box;
+    text-align:right;
+    vertical-align: middle;
+    /* align-items: center; */
+
+}
+
+/* .slider{
+    width:250px;
+} */
+
+.post-title{
+    font-size: xx-large;
+}
+
+input{
+    width:100%;
+    height:6pt;
+}
+
+
+svg{
+    display: block;
+    margin: auto;
+    margin-top:10px;
+  }

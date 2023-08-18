@@ -1,0 +1,77 @@
+
+<div>
+    <br><br><br>
+    <!-- injected some text from a separate html file -->
+
+    <div class="slider-container">
+        <div class="parameter">Width:</div>
+        <div class="slider-div"><input class="slider" type="range" min="1" max="5" value="5" step="1" id="slider-w" oninput="onInputW(this.value)"></div>
+        <div class="slider-text" id="range-width">5</div>
+
+
+        <div class="parameter">Height:</div>
+        <div class="slider-div"><input class="slider" type="range" min="1" max="5" value="5" step="1" id="slider-h" oninput="onInputH(this.value)"></div>
+        <div class="slider-text"  id="range-height">5</div>
+
+        <div class="parameter">Kernel:</div>
+        <div class="slider-div"><input class="slider" type="range" min="1" max="5" value="3" step="1" id="slider-k" oninput="onInputKernel(this.value)"></div>
+        <div class="slider-text"  id="range-kernel">3</div>
+
+        <div class="parameter">Stride:</div>
+        <div class="slider-div"><input class="slider" type="range" min="1" max="3" value="1" step="1" id="slider-s" oninput="onInputStride(this.value)"></div>
+        <div class="slider-text"  id="range-stride">1</div>
+
+        <div class="parameter">Padding:</div>
+        <div class="slider-div"><input class="slider" type="range" min="0" max="3" value="0" step="1" id="slider-p" oninput="onInputPadding(this.value)"></div>
+        <div class="slider-text"  id="range-padding">0</div>
+
+        <div class="parameter">Output Padding:</div>
+        <div class="slider-div"><input class="slider" type="range" min="0" max="3" value="0" step="1" id="slider-op" oninput="onInputOutPad(this.value)"></div>
+        <div class="slider-text"  id="range-outpad">0</div>
+
+        <div class="parameter">Dilation:</div>
+        <div class="slider-div"><input class="slider" type="range" min="1" max="2" value="1" step="1" id="slider-d" oninput="onInputDilation(this.value)"></div>
+        <div class="slider-text"  id="range-dilation">1</div>
+    </div>
+    <br><br>
+    
+    
+    <div class="center-container">Hover over the output to highlight corresponding convolution</div>
+
+    <br>
+
+</div>
+<script>
+
+function onInputW(val) {
+    document.getElementById("range-width").innerHTML = val;
+}
+
+function onInputH(val) {
+    document.getElementById("range-height").innerHTML = val;
+}
+
+function onInputKernel(val) {
+    document.getElementById("range-kernel").innerHTML = val;
+}
+
+function onInputStride(val) {
+    document.getElementById("range-stride").innerHTML = val;
+}
+
+function onInputPadding(val) {
+    document.getElementById("range-padding").innerHTML = val;
+}
+
+function onInputDilation(val) {
+    document.getElementById("range-dilation").innerHTML = val;
+}
+
+
+function onInputOutPad(val) {
+    document.getElementById("range-outpad").innerHTML = val;
+}
+
+</script>
+
+
