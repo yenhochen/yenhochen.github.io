@@ -1,3 +1,11 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E88VF4WGMP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E88VF4WGMP');
+</script>
 {%- if site.enable_google_analytics -%}
   <!-- Global site tag (gtag.js) - Google Analytics
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
@@ -8,14 +16,6 @@
     gtag('config', '{{ site.google_analytics }}');
   </script> -->
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E88VF4WGMP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-E88VF4WGMP');
-</script>
 {%- endif -%}
 {%- if site.enable_panelbear_analytics -%}
   <!-- Panelbear Analytics - We respect your privacy -->
