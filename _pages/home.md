@@ -24,7 +24,12 @@ img_path: home/bayes_inference.gif
 
 <div class="center-screen">
   <p style="font-family:Helvetica; font-size:larger;" class="font-weight-bold">Yenho Chen</p>
-  <div class="about-text"> I am a PhD Student in <a href="https://ml.gatech.edu/">Machine Learning at Georgia Tech</a>, where I work with Dr. <a href="https://siplab.gatech.edu/">Chris Rozell</a>. Previously, I developed statistical tools for neuroscience as a research fellow in the <a href="https://cmn.nimh.nih.gov/mlt">Machine Learning Team at the National Institute of Mental Health</a>. Currently, my work focuses on creating new computational tools that help scientists reveal and understand hidden structure in complex time-series data. I am broadly interested in solving real world problems using techniques from <span onmouseover="mover(this)" class="highlight-art generative-modeling">deep learning</span>, <span onmouseover="mover(this)" class="highlight-art ot">optimal transport</span>, and <span onmouseover="mover(this)" class="highlight-art bayes">Bayesian inference</span>.
+  <div class="about-text"> I am a PhD Student in <a href="https://ml.gatech.edu/">Machine Learning at Georgia Tech</a>, where I work with Dr. <a href="https://siplab.gatech.edu/">Chris Rozell</a>. Previously, I developed statistical tools for neuroscience as a research fellow in the <a href="https://cmn.nimh.nih.gov/mlt">Machine Learning Team at the National Institute of Mental Health</a>. Currently, my work focuses on creating new computational tools that help scientists reveal and understand hidden structure in complex time-series data. I am broadly interested in solving real world problems by advancing the areas of <span onmouseover="mover(this)" class="highlight-art generative-modeling">deep learning</span>, <span onmouseover="mover(this)" class="highlight-art ot">numerical optimization</span>, and <span onmouseover="mover(this)" class="highlight-art bayes">Bayesian inference</span>.
+
+  <!-- I am broadly interested in solving real-world problems by advancing the areas of deep learning, numerical optimization, and Bayesian inference. -->
+  
+  
+  <!-- I am broadly interested in solving real world problems by advancing the areas of <span onmouseover="mover(this)" class="highlight-art generative-modeling">deep learning</span>, <span onmouseover="mover(this)" class="highlight-art ot">numerical optimization</span>, and <span onmouseover="mover(this)" class="highlight-art bayes">Bayesian inference</span>. -->
   </div>
   <br>
   <br>

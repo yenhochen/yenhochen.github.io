@@ -3,24 +3,16 @@
 
   <!-- Head -->
   <head>
-  {%- if page.redirect -%}
-    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
-  {%- endif -%}
-  {% include head.html %}
-
-  <!-- {% include scripts/analytics.html %} -->
-  <!-- {% if page.style %} 
-  <style>
-      {% include {{ page.style }} %} 
-  </style>
-  {% endif %}
-   -->
-     <!-- Analytics -->
-     {% include scripts/analytics.html %}
+    
+    {%- if page.redirect -%}
+      <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
+    {%- endif -%}
+    {% include head.html %}
   </head>
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
 
     <!-- Header -->
     {%- include blogheader.html %}
