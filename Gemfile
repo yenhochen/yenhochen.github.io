@@ -10,7 +10,6 @@ group :jekyll_plugins do
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
-    # gem 'jekyll-scholar'
     gem 'jekyll-scholar', group: :jekyll_plugins
     gem 'jekyll-sitemap'
     gem 'jekyll-toc'
