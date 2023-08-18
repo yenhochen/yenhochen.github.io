@@ -78,16 +78,18 @@ img_path: home/bayes_inference.gif
 
 
   <div class="home-img-container">
-    <!-- <img src="assets/img/bayes_inference_crop.gif" width="300px" height="300px" id="bayes">  -->
-    <video  autoplay="autoplay" id="bayes" muted loop>
+    <img src="assets/img/bayes_inference4.gif" width="300px" height="300px" id="bayes"> 
+    <!-- <video  autoplay="autoplay" id="bayes" muted loop>
       <source src="assets/img/bayes_inference4.mp4" type="video/mp4" />
-    </video>
-    <video  autoplay="autoplay" id="ot" muted loop>
+    </video> -->
+    <img src="assets/img/ot2.gif" width="300px" height="300px" id="ot"> 
+    <!-- <video  autoplay="autoplay controls" id="ot" muted loop>
       <source src="assets/img/ot2.mp4" type="video/mp4" />
-    </video>
-    <video autoplay="autoplay" id="generative-modeling" muted loop>
+    </video> -->
+    <img src="assets/img/generative2.gif" width="300px" height="300px" id="generative-modeling"> 
+    <!-- <video autoplay="autoplay" id="generative-modeling" muted loop>
       <source src="assets/img/generative2.mp4" type="video/mp4" />
-    </video>
+    </video> -->
   </div>
 </div> 
 </div>

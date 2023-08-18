@@ -17,7 +17,7 @@ function mover(d){
 
         if(class_on){
             console.log(class_on)
-            $(`#${class_on}`).get(0).pause();
+            // $(`#${class_on}`).get(0).pause();
             $(`#${class_on}`).css("display", "none")
             
         }
@@ -25,7 +25,7 @@ function mover(d){
     
         
         $(`#${class_}`).css("display", "inline")
-        $(`#${class_}`).get(0).play();
+        // $(`#${class_}`).get(0).play();
         
     
         class_on = class_
