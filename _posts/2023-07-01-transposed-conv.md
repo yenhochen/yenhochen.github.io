@@ -42,7 +42,7 @@ For instance, increasing the padding surpringly results in a smaller output, and
 
 <div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js" charset="utf-8"></script>
-    <script src="http://d3js.org/d3.v6.min.js" charset="utf-8"></script>
+    <script src="https://d3js.org/d3.v6.min.js" charset="utf-8"></script>
     <!-- https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js -->
     <div class="d3post1"></div>
     {% for js in page.scripts %}
