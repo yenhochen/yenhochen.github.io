@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 
-  <!-- Head -->
   <head>
   {%- if page.redirect -%}
     <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
   {%- endif -%}
   {% include head.html %}
-  <!-- {% if page.style %} 
-  <style>
-      {% include {{ page.style }} %} 
-  </style>
-  {% endif %}
-   -->
 
    
   </head>
@@ -27,7 +20,7 @@
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == "right" %}
         <div class="row">
-          <!-- main content area -->
+        
           <div class="col-sm-9">
             {{ content }}
           </div>
