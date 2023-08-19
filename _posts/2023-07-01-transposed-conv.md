@@ -312,7 +312,7 @@ Given the above procedure, we can understand how each of the parameters affect t
 
 <br>
 
-- $$s$$ only effects the amount of padding within the data elements.
+- $$s$$ only affects the amount of padding within the data elements.
 - $$d$$ increases the outer padding size by a factor of $$k-1$$
 - $$p$$ directly decreases the outer padding size on the input data.
 - $$o$$ directly increases the outer padding size on the input data.
