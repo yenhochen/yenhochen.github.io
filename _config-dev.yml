@@ -212,7 +212,8 @@ keep_files:
   - CNAME
   - .nojekyll
   - .git
-
+gems:
+  - jekyll-scholar
 
 # Plug-ins
 plugins:
@@ -224,7 +225,10 @@ plugins:
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
+  - jekyll/scholar
   - jekyll-sitemap
+  # - jekyll-toc
+  - jekyll-twitter-plugin
   - jemoji
   # - jekyll-redirect-from
 
@@ -269,7 +273,36 @@ display_categories:
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
+scholar:
 
+  last_name: [Chen]
+  first_name: [Yenho]
+
+
+# apa-numeric-superscript-brackets
+  style: din-1505-2-numeric
+  locale: en
+
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  # Note: if you have latex math in your bibtex, the latex filter
+  # preprocessing may conflict with MathJAX if the latter is enabled.
+  # See https://github.com/alshedivat/al-folio/issues/357.
+  bibtex_filters: [latex, smallcaps, superscript]
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+  # group_by: year
+  sort_by: year
+  order: descending
+  # group_order: descending
 
 badges: # Display different badges for your publications
   altmetric_badge: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
