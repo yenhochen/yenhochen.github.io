@@ -19,8 +19,9 @@ Sparsity plays an important role in machine learning, statistics, and signal pro
 
 $$
 \DeclareMathOperator*{\argmin}{arg\,min}
-% \DeclareMathOperator{\argmax}{arg\,max}
+$$
 
+$$
 \begin{equation}
 \label{eq:general-lasso}
 w^* = \argmin_{w} \frac{1}{2} \| Dw - y \|_2^2 + \lambda \| F w \|_1
