@@ -321,18 +321,17 @@ def soft_threshold(x, thresh):
     return np.sign(x)* np.max([np.abs(x)-thresh, np.zeros(len(x))], axis=0)
 
 def ADMM_generalized_lasso(y, D, F, rho, lam, n_iters=100):
-    '''
-    y: (m,) array. observation
 
-    D: (m, n) array. dictionary
+    # y: (m,) array. observation 
 
-    F: (k, n) array. constraint matrix
+    # D: (m, n) array. dictionary
 
-    rho: augmented lagrange multiplier
+    # F: (k, n) array. constraint matrix
 
-    lam: lagrange multiplier
-    
-    '''
+    # rho: augmented lagrange multiplier
+
+    # lam: lagrange multiplier
+
 
     n = len(D.T)
 
