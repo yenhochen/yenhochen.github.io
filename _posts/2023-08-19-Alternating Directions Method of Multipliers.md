@@ -74,6 +74,10 @@ $$
 \end{alignat} 
 $$
 
+<br>
+
+
+
 
 <!-- [Discussion on the step-size for $$u$$. Primal Dual Feasability. step-size of 1 is a good choice!] -->
 
