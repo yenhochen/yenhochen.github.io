@@ -15,7 +15,7 @@ style:
 
 ---
 
-Alternating Directions Method of Multipliers (ADMM) {% cite boyd2011distributed -f admm-generalized-lasso %} is an effective class of iterative optimization algorithms that are particularly well-suited towards separable and non-smooth objectives. The core idea is to break down a complex optimization problem into simple tractable subproblems. Most generally, ADMM targets objectives of the form
+Alternating Directions Method of Multipliers (ADMM) [1] is an effective class of iterative optimization algorithms that are particularly well-suited towards separable and non-smooth objectives. The core idea is to break down a complex optimization problem into simple tractable subproblems. Most generally, ADMM targets objectives of the form
 
 $$
 \DeclareMathOperator*{\argmin}{arg\,min}
@@ -51,7 +51,7 @@ y^\top r + \frac{\rho}{2} \| r \|_2^2 &= y^\top r + \frac{\rho}{2} r^\top r \\
 \end{alignat*}
 $$
 
-where $$u=\frac{1}{\rho} y$$ is the scaled dual variable. Lines 3 comes directly from completing the square (Proposition 1 from {% cite rosenberg2017completing -f admm-generalized-lasso%}). All together, the scaled form of the augmented Lagrangian is given by
+where $$u=\frac{1}{\rho} y$$ is the scaled dual variable. Lines 3 comes directly from completing the square (Proposition 1 from [2]). All together, the scaled form of the augmented Lagrangian is given by
 
 $$
 \begin{equation}
@@ -84,7 +84,8 @@ $$
 
 ---
 
-{% bibliography --cited_in_order --file admm-generalized-lasso -T bib-blog %}
+1. Stephen Boyd, Neal Parikh, Eric Chu, Borja Peleato, Jonathan Eckstein, and  others. "Distributed optimization and statistical learning via the alternating direction method of multipliers". Foundations and Trends\textregistered in Machine learning, 2011.
+2. David S Rosenberg. "Completing the Square". 2017.
 {: .font-size-blog-ref}
 
 
