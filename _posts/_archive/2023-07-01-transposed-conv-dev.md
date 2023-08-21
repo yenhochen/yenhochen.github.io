@@ -57,7 +57,7 @@ For instance, increasing the padding surpringly results in a smaller output, and
 
 
 
-My goal with this post is to give a better sense of where the transposed convolution comes from and how it can be related to operations that we are familiar with. The discussion below closely follows the example in [1], but includes insights from other resources to hopefully give a more complete picture.
+My goal with this post is to give a better sense of where the transposed convolution comes from and how it can be related to operations that we are familiar with. The discussion below closely follows the example in {% cite dumoulin2016guide --file transposed-conv %}, but includes insights from other resources to hopefully give a more complete picture.
 
 
 ---
@@ -162,7 +162,7 @@ $$
 \end{equation*}
 $$
 
-A careful derivation of this result can be found in [2]. Here, a low-dimensional vector $$\frac{\partial l}{\partial y} \in \mathbb{R}^{N\times 1}$$ is mapped to a high dimensional vector $$\frac{\partial l}{\partial \tilde{x}} \in \mathbb{R}^{M\times 1}$$ using $$\widetilde{W}^\top$$, or the transpose of the augmented kernel. 
+A careful derivation of this result can be found in {% cite johnson-notes-backprop --file transposed-conv %}. Here, a low-dimensional vector $$\frac{\partial l}{\partial y} \in \mathbb{R}^{N\times 1}$$ is mapped to a high dimensional vector $$\frac{\partial l}{\partial \tilde{x}} \in \mathbb{R}^{M\times 1}$$ using $$\widetilde{W}^\top$$, or the transpose of the augmented kernel. 
 
 
 <br>
@@ -423,8 +423,7 @@ print(torch.isclose(torch_convT, my_convT, atol=1e-7).prod() == 1)
 
 
 
-1. Vincent Dumoulin, and Francesco Visin. "A guide to convolution arithmetic for deep learning". arXiv preprint: 1603.07285, 2016.
-2. Justin Johnson, and David Fouhey. "Backpropagation for a Linear Layer". EECS 442: Computer Vision Notes,.
+{% bibliography --cited_in_order --file transposed-conv -T bib-blog %}
 {: .font-size-blog-ref}
 
 <br><br><br><br><br><br>
@@ -433,3 +432,5 @@ print(torch.isclose(torch_convT, my_convT, atol=1e-7).prod() == 1)
 
 <br><br><br>
 
+
+<!-- [^1]: {% reference dumoulin2016guide -f transposed-conv %} -->

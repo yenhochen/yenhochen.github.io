@@ -28,7 +28,7 @@ w^* = \argmin_{w} \frac{1}{2} \| Dw - y \|_2^2 + \lambda \| F w \|_1
 $$
 
 
-where $$F \in \mathbb{R}^{k \times n}$$ encodes $$K$$ distinct $$\ell_1$$-norm penalties, and  $$\lambda \geq 0$$ is a lagrange multiplier that determines the strength of those penalty terms. In statistics, this is also known as the generalized Lasso problem [1]. The main challenge with solving equation $$\ref{eq:general-lasso}$$ lies in the non-differentiability of the $$\ell_1$$-norm. Therefore, we cannot obtain an analytical solution and must resort to iterative solvers. 
+where $$F \in \mathbb{R}^{k \times n}$$ encodes $$K$$ distinct $$\ell_1$$-norm penalties, and  $$\lambda \geq 0$$ is a lagrange multiplier that determines the strength of those penalty terms. In statistics, this is also known as the generalized Lasso problem {% cite tibshirani2011solution -f admm-generalized-lasso %}. The main challenge with solving equation $$\ref{eq:general-lasso}$$ lies in the non-differentiability of the $$\ell_1$$-norm. Therefore, we cannot obtain an analytical solution and must resort to iterative solvers. 
 
 <br>
 
@@ -224,7 +224,7 @@ For different choices of $$F$$, we recover several well-studied problems as spec
 
 ###### Standard Lasso 
 
-When $$F$$ is an identity matrix $$I\in\mathbb{R}^{n \times n}$$, we recover the standard Lasso problem [2]
+When $$F$$ is an identity matrix $$I\in\mathbb{R}^{n \times n}$$, we recover the standard Lasso problem {% cite tibshirani1996regression -f admm-generalized-lasso %}
 
 $$
 \min_w \frac{1}{2} \|Dw - y \|_2^2 + \lambda \| w \|_1
@@ -248,7 +248,7 @@ F_{ij} =
 $$
 
 we obtain the variable fusion model
-[3] which corresponds to the problem
+{% cite land1996variable -f admm-generalized-lasso %} which corresponds to the problem
 
 $$
 \min_w \frac{1}{2} \|Dw - y \|_2^2 + \lambda \sum_{i=2}^n \| w_{k} -  w_{k-1}\|_1
@@ -274,7 +274,7 @@ F_{\textrm{Fusion}}
 
 $$
 
-we obtain the Fused Lasso model [4] which combines both a sparsity and smoothness penalty.
+we obtain the Fused Lasso model {% cite tibshirani2005sparsity -f admm-generalized-lasso %} which combines both a sparsity and smoothness penalty.
 
 
 $$
@@ -436,3 +436,8 @@ plt.show()
 4. Robert Tibshirani, Michael Saunders, Saharon Rosset, Ji Zhu, and Keith Knight. "Sparsity and smoothness via the fused lasso". Journal of the Royal Statistical Society Series B: Statistical Methodology, 2005.
 {: .font-size-blog-ref}
 
+
+
+
+
+[//]: # <!-- {% bibliography --cited_in_order --file admm-generalized-lasso -T bib-blog %} -->
