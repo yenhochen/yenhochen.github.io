@@ -466,7 +466,17 @@ footer.sticky-bottom {
   }
 }
 
-.post-title {
+.post-title{
+  mjx-container[jax="CHTML"][display="true"] {
+    display: unset;
+  }
+  margin-bottom:16pt;
+  // font-size: 15pt;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.post-title-main{
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
@@ -474,7 +484,23 @@ footer.sticky-bottom {
   font-size: 15pt;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
+
 }
+
+// .post-title-main{
+//   font-size: 15pt;
+//   margin-bottom:16pt;
+// }
+
+.post-title-main:hover{
+  text-decoration:underline;
+  color: gray;
+}
+
+// .post-title:hover{
+//   text-decoration:underline;
+//   color:gray;
+// }
 
 .post-list {
   margin: 0;
@@ -1164,4 +1190,20 @@ div.about-text{
 
 .font-size-blog-ref{
   font-size: 8pt;
+}
+
+.citation:hover { text-decoration: none; }
+.citation:link { text-decoration: none; }
+
+
+figure {
+  // position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+}
+
+figure > img {
+  margin: auto;
 }

@@ -419,11 +419,11 @@ print(torch.isclose(torch_convT, my_convT, atol=1e-7).prod() == 1)
 
 ---
 
-**References**
+<!-- **References** -->
 
 
 
-{% bibliography --cited --file transposed-conv -T bib-blog %}
+{% bibliography --cited_in_order --file transposed-conv -T bib-blog %}
 {: .font-size-blog-ref}
 
 <br><br><br><br><br><br>
