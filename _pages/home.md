@@ -38,7 +38,40 @@ img_path: home/bayes_inference.gif
   <br>
 
 
+
 <div class="home-bottom-container">
+  <div class="home-links-container">
+  
+                
+                  
+      <p>
+        <a class="home-link" href="{{ '/publications/' | relative_url}}">
+        publications
+          <span class="sr-only">(current)</span>
+          
+        </a>
+      </p>
+
+    <p>
+      <a class="home-link" href="https://github.com/yenhochen">code</a>
+    </p>
+
+
+
+    <p>
+      <a class="home-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
+        {%- if page.url contains 'blog' -%}
+        <span class="sr-only">(current)</span>
+        {%- endif -%}
+      </a>
+    </p>
+
+
+    <p style="font-family:monospace">[firstname]@gatech.edu</p>
+  </div>
+
+
+<!-- <div class="home-bottom-container">
   <div class="home-links-container">
                 <p>
                   <a class="home-link" href="/yenhochen/publications/">publications</a>
@@ -52,8 +85,7 @@ img_path: home/bayes_inference.gif
     <!-- <p><div>
 injected some text <a  href="dummy"> here</a>
 </div></p> -->
-    <p style="font-family:monospace">[firstname]@gatech.edu</p>
-  </div>
+  </div> -->
 
 
 
