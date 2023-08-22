@@ -47,9 +47,7 @@ img_path: home/bayes_inference.gif
 <div class="home-bottom-container">
   <div class="home-links-container">   
       <span  markdown="1">[publications]({% link _pages/publications.md %})</span>     
-      <p>
-        <a class="home-link" href="https://github.com/yenhochen">code</a>
-      </p>
+      <p><a class="home-link" href="https://github.com/yenhochen">code</a></p>
       <p>
         <a class="home-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
           {%- if page.url contains 'blog' -%}
@@ -58,7 +56,6 @@ img_path: home/bayes_inference.gif
         </a>
       </p>
     <p style="font-family:monospace">[firstname]@gatech.edu</p>
-  </div>
 
   </div>
     <div class="home-img-container">
@@ -75,6 +72,6 @@ img_path: home/bayes_inference.gif
         <source src="assets/img/generative2.mp4" type="video/mp4" />
       </video> -->
     </div>
-  </div> 
+</div> 
 </div>
 
