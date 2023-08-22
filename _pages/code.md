@@ -3,7 +3,7 @@ layout: page
 permalink: /code/
 title: code
 description: This page is under construction
-nav: true
+nav: false
 nav_order: 3
 redirect_to:
   - https://github.com/yenhochen

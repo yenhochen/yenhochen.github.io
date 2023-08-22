@@ -47,7 +47,6 @@ img_path: home/bayes_inference.gif
 <div class="home-bottom-container">
   <div class="home-links-container">   
       <span  markdown="1">[publications]({% link _pages/publications.md %})</span>     
-      <p><a class="home-link" href="https://github.com/yenhochen">code</a></p>
       <p>
         <a class="home-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
           {%- if page.url contains 'blog' -%}
@@ -55,8 +54,8 @@ img_path: home/bayes_inference.gif
           {%- endif -%}
         </a>
       </p>
+      <p><a class="home-link" href="https://github.com/yenhochen">code</a></p>
     <p style="font-family:monospace">[firstname]@gatech.edu</p>
-
   </div>
     <div class="home-img-container">
       <img src="assets/img/bayes_inference4.gif" width="300px" height="300px" id="bayes"> 
