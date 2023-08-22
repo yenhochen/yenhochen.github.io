@@ -6,7 +6,7 @@ description: This page is under construction
 nav: true
 nav_order: 3
 redirect_to:
-  - https://github.com/yenhochen?tab=overview&from=2023-05-01&to=2023-05-31
+  - https://github.com/yenhochen
 ---
 
 <br><br><br>

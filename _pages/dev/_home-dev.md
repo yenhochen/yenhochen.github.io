@@ -40,18 +40,46 @@ img_path: home/bayes_inference.gif
 
 <div class="home-bottom-container">
   <div class="home-links-container">
+    {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
+                {%- for p in sorted_pages -%}
+                {%- if p.nav and p.autogen == nil -%}
+                {%- if p.dropdown %}
                 <p>
-                  <a class="home-link" href="/yenhochen/publications/">publications</a>
-                </p>
+                  <a class="home-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p.title }}
+                    {%- if page.title == p.title -%}
+                    <span class="sr-only">(current)</span>
+                    {%- endif -%}
+                  </a>
+                  </p>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    {%- for child in p.children -%}
+                    {%- if child.title == 'divider' %}
+                    <div class="dropdown-divider"></div>
+                    {%- else %}
+                    <a class="dropdown-item" href="{{ child.permalink | relative_url }}">{{ child.title }}</a>
+                    {%- endif -%}
+                    {% endfor %}
+                  </div>
+                {%- else %}
                 <p>
-                  <a class="home-link" href="https://github.com/yenhochen">code</a>
+                  <a class="home-link" href="{{ p.url | relative_url }}">{{ p.title }}
+                    {%- if page.title == p.title -%}
+                    <span class="sr-only">(current)</span>
+                    {%- endif -%}
+                  </a>
                 </p>
-<p>
-      <a class="home-link" href="/yenhochen/blog/">blog</a>
+                {%- endif -%}
+                {%- endif -%}
+                {% endfor -%}
+
+      <p>
+      <a class="home-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
+        {%- if page.url contains 'blog' -%}
+        <span class="sr-only">(current)</span>
+        {%- endif -%}
+      </a>
     </p>
-    <!-- <p><div>
-injected some text <a  href="dummy"> here</a>
-</div></p> -->
+    <!-- <p>{% include myfile.html %}</p> -->
     <p style="font-family:monospace">[firstname]@gatech.edu</p>
   </div>
 
