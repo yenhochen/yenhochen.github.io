@@ -22,6 +22,7 @@ img_path: home/bayes_inference.gif
 
 
 
+
 <div class="center-screen">
   <p style="font-family:Helvetica; font-size:larger;" class="font-weight-bold">Yenho Chen</p>
   
@@ -39,70 +40,41 @@ img_path: home/bayes_inference.gif
 
 
 
-<div class="home-bottom-container">
-  <div class="home-links-container">
+
+
   
-                
-                  
+
+<div class="home-bottom-container">
+  <div class="home-links-container">   
+      <span  markdown="1">[publications]({% link _pages/publications.md %})</span>     
       <p>
-        <a class="home-link" href="{{ '/publications/' | relative_url}}">
-        publications
+        <a class="home-link" href="https://github.com/yenhochen">code</a>
+      </p>
+      <p>
+        <a class="home-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
+          {%- if page.url contains 'blog' -%}
           <span class="sr-only">(current)</span>
-          
+          {%- endif -%}
         </a>
       </p>
-
-    <p>
-      <a class="home-link" href="https://github.com/yenhochen">code</a>
-    </p>
-
-
-
-    <p>
-      <a class="home-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
-        {%- if page.url contains 'blog' -%}
-        <span class="sr-only">(current)</span>
-        {%- endif -%}
-      </a>
-    </p>
-
-
     <p style="font-family:monospace">[firstname]@gatech.edu</p>
   </div>
 
-
-<!-- <div class="home-bottom-container">
-  <div class="home-links-container">
-                <p>
-                  <a class="home-link" href="/yenhochen/publications/">publications</a>
-                </p>
-                <p>
-                  <a class="home-link" href="https://github.com/yenhochen">code</a>
-                </p>
-<p>
-      <a class="home-link" href="/yenhochen/blog/">blog</a>
-    </p>
-    <!-- <p><div>
-injected some text <a  href="dummy"> here</a>
-</div></p> -->
-  </div> -->
-
-
-
-  <div class="home-img-container">
-    <img src="assets/img/bayes_inference4.gif" width="300px" height="300px" id="bayes"> 
-    <!-- <video  autoplay="autoplay" id="bayes" muted loop>
-      <source src="assets/img/bayes_inference4.mp4" type="video/mp4" />
-    </video> -->
-    <img src="assets/img/ot2.gif" width="300px" height="300px" id="ot"> 
-    <!-- <video  autoplay="autoplay controls" id="ot" muted loop>
-      <source src="assets/img/ot2.mp4" type="video/mp4" />
-    </video> -->
-    <img src="assets/img/generative2.gif" width="300px" height="300px" id="generative-modeling"> 
-    <!-- <video autoplay="autoplay" id="generative-modeling" muted loop>
-      <source src="assets/img/generative2.mp4" type="video/mp4" />
-    </video> -->
   </div>
-</div> 
+    <div class="home-img-container">
+      <img src="assets/img/bayes_inference4.gif" width="300px" height="300px" id="bayes"> 
+      <!-- <video  autoplay="autoplay" id="bayes" muted loop>
+        <source src="assets/img/bayes_inference4.mp4" type="video/mp4" />
+      </video> -->
+      <img src="assets/img/ot2.gif" width="300px" height="300px" id="ot"> 
+      <!-- <video  autoplay="autoplay controls" id="ot" muted loop>
+        <source src="assets/img/ot2.mp4" type="video/mp4" />
+      </video> -->
+      <img src="assets/img/generative2.gif" width="300px" height="300px" id="generative-modeling"> 
+      <!-- <video autoplay="autoplay" id="generative-modeling" muted loop>
+        <source src="assets/img/generative2.mp4" type="video/mp4" />
+      </video> -->
+    </div>
+  </div> 
 </div>
 
