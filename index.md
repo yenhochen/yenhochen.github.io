@@ -34,7 +34,7 @@ Prior to my PhD, I was a research fellow in the Machine Learning Team at the <a 
 - **[Apr. 2026]** Our paper on PULSE, a new SSL approach for health signals based on dynamical systems theory, has been accepted at ICML.
 - **[Oct. 2025]** Recognized as a Top Reviewer for NeurIPS 2025 🙌!
 - **[May 2025]** Starting a research internship at [IBM Research](https://research.ibm.com/) in San Jose, California.
-- **[Mar. 2025]** [MANGO](https://ieeexplore.ieee.org/document/11133570) has been accepted at SampTA as Oral presentation!
+- **[Mar. 2025]** [MANGO](https://ieeexplore.ieee.org/document/11133570) has been accepted at SampTA as Oral presentation 🥭!
 - **[Dec. 2024]** Our paper on [probabilistic dLDS](https://proceedings.neurips.cc/paper_files/paper/2024/hash/bcf26768143c94bd36e363cd4bf5daf0-Abstract-Conference.html) for robust tracking of sparse coded dynamics has been accepted at NeurIPS.
 <!-- - **[Aug. 2024]** Our paper on [AnatoMask](https://dl.acm.org/doi/abs/10.1007/978-3-031-73027-6_9) a new masking strategy that improves medical image SSL been accepted at ECCV. -->
 - **[May 2024]** Started a research internship at [Blackstone Real Estate](https://www.blackstone.com/our-businesses/real-estate/?utm_medium=paid-search&utm_source=google&utm_campaign=firmwide-marketing_us__na_all_none_paid_na_&utm_content=na_na_na_general_na__2025&gad_source=1&gad_campaignid=23758505432&gbraid=0AAAABDI-MDmhyCmpJqORpL8AM4BCw3hoM) in New York City, New York.
