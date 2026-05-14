@@ -10,7 +10,7 @@ main:
     image: ./assets/img/paper_teasers/icml26_pulse.png
     notes: Accepted
 
-  - title: Self-Supervised Dynamical System Representations for Physiological Time-Series
+  - title: MANGO: Learning Disentangled Image Transformation Manifolds with Grouped Operators
     authors: Brighton Ancelin*, <strong>Yenho Chen*</strong>, Alex Saad-Falcon, Peimeng Guan, Chiraag Kaushik, Nakul Singh, and Belen Martin-Urcelay
     conference_short: SampTA
     conference: Sampling Theory and Applications <strong>(SampTA)</strong>, 2025.
