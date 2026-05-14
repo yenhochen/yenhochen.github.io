@@ -41,7 +41,7 @@ Prior to my PhD, I was a research fellow in the Machine Learning Team at the <a 
 - **[Jan. 2024]** Starting a applied LLM internship at Travelers Insurance Inc. in Atlanta, Georgia.
 - **[Dec 2023]** Received my M.S. in Computer Science from Georgia Tech.
 - **[Aug. 2023]**  Our paper on [decomposed linear dynamical systems (dLDS)](https://www.jmlr.org/papers/v25/23-0777.html) has been accepted at JMLR!.
-- **[Aug. 2021]** Started PhD in Machine Learning at Georgia Tech, advised by [Dr. Christopher Rozell](https://siplab.gatech.edu/)
+- **[Aug. 2021]** Started PhD in Machine Learning at Georgia Tech 🐝.
 
 </div>
 
