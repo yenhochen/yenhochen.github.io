@@ -1,22 +1,42 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: Self-Supervised Dynamical System Representations for Physiological Time-Series
+    authors: <strong>Yenho Chen*</strong>, Maxwell A. Xu, James M. Rehg, Christopher J. Rozell
+    conference_short: ICML
+    conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2026.
+    # pdf: https://proceedings.icml.org/paper_files/paper/2024/hash/bcf26768143c94bd36e363cd4bf5daf0-Abstract-Conference.html
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/paper_teasers/icml26_pulse.png
+    notes: Accepted
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: Self-Supervised Dynamical System Representations for Physiological Time-Series
+    authors: Brighton Ancelin*, <strong>Yenho Chen*</strong>, Alex Saad-Falcon, Peimeng Guan, Chiraag Kaushik, Nakul Singh, and Belen Martin-Urcelay
+    conference_short: SampTA
+    conference: Sampling Theory and Applications <strong>(SampTA)</strong>, 2025.
+    pdf: https://ieeexplore.ieee.org/document/11133570
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/paper_teasers/sampta25_mango.png
+    notes: Oral
+
+  - title: Probabilistic Decomposed Linear Dynamical Systems for Robust Discovery of Latent Neural Dynamics
+    authors: <strong>Yenho Chen*</strong>, Noga Mudrik, Kyle A. Johnsen, Sankaraleengam Alagapan, Adam S. Charles, Christopher J. Rozell
+    conference_short: NeurIPS
+    conference: Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2024.
+    pdf: https://proceedings.neurips.cc/paper_files/paper/2024/hash/bcf26768143c94bd36e363cd4bf5daf0-Abstract-Conference.html
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/paper_teasers/neurips24_pdlds.png
+    # notes: Early Accept
+
+  - title: Decomposed Linear Dynamical Systems (dLDS) for learning the latent components of neural dynamics
+    authors: Noga Mudrik*, <strong>Yenho Chen*</strong>, Eva Yezerets, Christopher J. Rozell, Adam S. Charles
+    conference_short: JMLR
+    conference: Journal of Machine Learning Research <strong>(JMLR)</strong>, 2024.
+    pdf: https://jmlr.org/papers/volume25/23-0777/23-0777.pdf
+    code: https://github.com/dLDS-Decomposed-Linear-Dynamics
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # notes: Oral Presentation
+    image: ./assets/img/paper_teasers/jmlr24_dlds.png
