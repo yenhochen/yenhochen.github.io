@@ -14,8 +14,8 @@ My thesis focuses on improving self-supervised learning for health time-series u
 
 Outside of my PhD, I have worked on a range of research problems through industry internships. At 
 <span style="color: #006699; font-weight: 700">IBM Research</span>, I developed SSL methods to discover new CAR-T protein sequences with improved cytotoxicity. At 
-<span style="color: #000000; font-weight: 700">Blackstone Real Estate</span>, I designed regularization techniques for deep hierarchical ensemble models, producing more robust hotel demand forecasts. At 
-<span style="color: #E31B23; font-weight: 700">Travelers</span>, I investigated domain reweighting techniques for continued pretraining of LLMs.
+<span style="color: #000000; font-weight: 700">Blackstone Real Estate</span>, I designed new dropout techniques to produce more robust hotel demand forecasts. At 
+<span style="color: #E31B23; font-weight: 700">Travelers</span>, I investigated domain reweighting strategies for continued pretraining of LLMs.
 
 Prior to my PhD, I was a research fellow in the Machine Learning Team at the <a class="no-underline" href="https://cmn.nimh.nih.gov/mlt">National Institute of Mental Health</a>, where I built statistical tools for neural signal analysis.
 
