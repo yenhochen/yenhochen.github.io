@@ -8,21 +8,26 @@ layout: homepage
 
 I am a Machine Learning Ph.D. Candidate at 
 <span style="color: #B3A369; font-weight: 700">Georgia Tech</span>, advised by [Dr. Christopher Rozell](https://siplab.gatech.edu/). 
-My thesis focuses on improving self-supervised learning for health time-series using mathematical tools from dynamical systems theory. I have developed methods for low-data settings, where we care more about interpretability, and for large-scale single- and multi-sensor data, where we care more about scalability.
+I'm interested in building foundation models for health and science. My work centers on pretraining strategies that build domain structure into learned representations, so that models generalize better and need fewer labels. In my thesis, I develop this for health time series by building dynamical systems structure into self-supervised pretraining, ranging from small interpretable models for low-data settings to large-scale pretraining on single- and multi-sensor wearable data.
+<!-- My thesis focuses on improving self-supervised learning for health time-series using mathematical tools from dynamical systems theory. I have developed methods for low-data settings, where we care more about interpretability, and for large-scale single- and multi-sensor data, where we care more about scalability. -->
 
 <!-- #0f62fe  -->
+<!-- I developed SSL methods to discover new CAR-T protein sequences with improved cytotoxicity.  -->
 
 Outside of my PhD, I have worked on a range of research problems through industry internships. At 
-<span style="color: #006699; font-weight: 700">IBM Research</span>, I developed SSL methods to discover new CAR-T protein sequences with improved cytotoxicity. At 
-<span style="color: #000000; font-weight: 700">Blackstone Real Estate</span>, I designed new context-dependent input modality gating techniques to produce more robust hotel demand forecasts. At 
+<span style="color: #006699; font-weight: 700">IBM Research</span>, I developed a pretraining approach for designing new CAR-T therapy variants, and built an agentic evaluation harness to benchmark LLM agents on protein research tasks.
+At 
+<span style="color: #000000; font-weight: 700">Blackstone Real Estate</span>, I focused on multimodal forecasting models for hotel demand based on demand history (time-series) and market reports (text). At 
 <span style="color: #E31B23; font-weight: 700">Travelers</span>, I investigated domain reweighting strategies for continued pretraining of LLMs.
 
 Prior to my PhD, I was a research fellow in the Machine Learning Team at the <a class="no-underline" href="https://cmn.nimh.nih.gov/mlt">National Institute of Mental Health</a>, where I built statistical tools for neural signal analysis.
 
+**I am currently on the market for research and applied scientist roles.**
+
 
 ## Research Interests
 
-- **Machine Learning:** Self-supervised Learning, contrastive learning, dynamical systems theory, state space models, Bayesian Inference, representation learning, transfer learning, probabilistic graphical models, sparse coding
+- **Machine Learning:** Foundation Models, Wearable AI, Self-Supervised Learning, Time-Series, Dynamical Systems Theory
 - **Applications:** Health Time-series (EEG, ECG, PPG, HAR, Wearables), Large Language Models (LLMs), Protein Language Models
 
 ## News
